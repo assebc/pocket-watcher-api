@@ -1,0 +1,7 @@
+node_modules
+prisma
+.gitignore
+.git
+.prettierrc
+Dockerfile
+README.md

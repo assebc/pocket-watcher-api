@@ -20,5 +20,4 @@ export class AuthService {
   private generateToken(userId: string): Promise<string> {
     return this.jwtService.signAsync({ sub: userId });
   }
-
 }
